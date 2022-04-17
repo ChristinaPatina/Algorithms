@@ -2,7 +2,7 @@
 ## Implement algorithms listed below for Capacitated Vehicle Routeing Problem with Time Windows:
  - Iterated Local Search
  - Guided Local Search
- ----------------------------------------------------------------
+
 Datasets: Solomon instances + Homberger instances
 C108
 C203
@@ -23,7 +23,8 @@ R11010
 R - Random
 C - Clustered
 RC - Random clustered
-----------------------------------------------------------------
+
+
 Input file: instancename.txt (e.g. R101.txt, C108.txt)
 Input format:
 R101
@@ -40,7 +41,8 @@ Customer with ID = 0 is a DEPOT.
 See the attachment for some additional examples.
 IMPORTANT: We assume that distance between customers/depot is Euclidian.
 IMPORTANT: We assume that travel time/cost between customers/depot = distance.
-----------------------------------------------------------------
+
+
 Feasible solutions.
 Each solution is a set of routes.
 - Each customer is served
@@ -52,7 +54,8 @@ READY TIME (TIME WINDOW BEGINS) <= T < DUE DATE(TIME WINDOW ENDS)
 - Each vehicle leaves depot and arrives depot in time K where
 READY TIME DEPOT<= K < DUE DATE DEPOT
 - Total cost/distance of all routes is minimized
- ----------------------------------------------------------------
+
+
 Output file: instancename.sol (e.g. C108.sol, C203.sol)
 Output file contains list of routes.
 Each row in a file is a single route (With Depot customers!).
