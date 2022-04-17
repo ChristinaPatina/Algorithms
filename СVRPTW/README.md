@@ -1,8 +1,8 @@
 # CVRPTW
 ## Implement algorithms listed below for Capacitated Vehicle Routeing Problem with Time Windows:
-## - Iterated Local Search
-## - Guided Local Search
-## ----------------------------------------------------------------
+ - Iterated Local Search
+ - Guided Local Search
+ ----------------------------------------------------------------
 Datasets: Solomon instances + Homberger instances
 C108
 C203
@@ -52,7 +52,7 @@ READY TIME (TIME WINDOW BEGINS) <= T < DUE DATE(TIME WINDOW ENDS)
 - Each vehicle leaves depot and arrives depot in time K where
 READY TIME DEPOT<= K < DUE DATE DEPOT
 - Total cost/distance of all routes is minimized
-## ----------------------------------------------------------------
+ ----------------------------------------------------------------
 Output file: instancename.sol (e.g. C108.sol, C203.sol)
 Output file contains list of routes.
 Each row in a file is a single route (With Depot customers!).
